@@ -29,13 +29,13 @@ To work with the application please follow below steps.
        
     }```
 
-    * `http://localhost:8080/books (Put request)`- Provide a Http body as json to update an existing record(if not exists then create a new record).
+    * http://localhost:8080/books (Put request)- Provide a Http body as json to update an existing record(if not exists then create a new record).
    ```{
         "title": "Spring Star",
         "author": " late spring",
          "bookId": 6
      }```
-     * `http://localhost:8080/books/2 (Delete request)`- Provide a book id to delete
+     * http://localhost:8080/books/2 (Delete request)- Provide a book id to delete
 
 
 
