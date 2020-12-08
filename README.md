@@ -1,7 +1,7 @@
 # BookDemo
 
 ## Project Overview
-This is a Spring boot application that has an MVC part to interact with different functionalities and also supports REST API. Users can create a book record, update, delete, and search from the home.jsp. Users can also play around with the REST API calls (details provided below). The application utilizes Embedded database H2 to perform CRUD operations.
+This is a Spring boot application that implements MVC pattern, supports a view to interact with CRUD operations and also supports REST API. Users can create a book record, update, delete, and search from the home.jsp. Users can also play around with the REST API calls (details provided below). The application utilizes Embedded database H2 to store data.
 
 ## App Features
 - Follows MVC pattern 
@@ -31,7 +31,7 @@ To work with the application please follow the below steps.
     ```
 
     * `http://localhost:8080/books (Put request)`
-    Requires a Http body as json to update an existing record(if not exists then create a new record).
+    Requires a Http body as json to update an existing record (if the record does not exist then create a new record).
    ```
    {
      "title": "Spring Star",
