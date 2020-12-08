@@ -22,7 +22,7 @@ To work with the application please follow below steps.
 	* `http://localhost:8080/books (Get request)`
 
 	* `http://localhost:8080/books (Post request)`
-	Provide a Http body as json to create a book record.
+	Requires a Http body as json to create a book record.
    ```
    {
         "title": "Spring Flower",
@@ -32,7 +32,7 @@ To work with the application please follow below steps.
     ```
 
     * `http://localhost:8080/books (Put request)`
-    Provide a Http body as json to update an existing record(if not exists then create a new record).
+    Requires a Http body as json to update an existing record(if not exists then create a new record).
    ```
    	{
         "title": "Spring Star",
@@ -40,7 +40,7 @@ To work with the application please follow below steps.
          "bookId": 6
     }
     ```
-     * `http://localhost:8080/books/2 (Delete request)`- Provide a book id to delete
+     * `http://localhost:8080/books/2 (Delete request)`- Requires a book id to delete
 
 
 
