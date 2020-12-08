@@ -24,20 +24,20 @@ To work with the application please follow the below steps.
 	* `http://localhost:8080/books (Post request)`
 	Requires a Http body as json to create a book record.
    ```
-   { 
-   	 "title": "Spring Flower",
-     "author": "spring"
-   }
+   	{ 
+   		"title": "Spring Flower",
+   		"author": "spring"
+	}
     ```
 
     * `http://localhost:8080/books (Put request)`
     Requires a Http body as json to update an existing record (if the record does not exist then create a new record).
    ```
-   {
-     "title": "Spring Star",
-     "author": " late spring",
-     "bookId": 6
-   }
+	{
+		"title": "Spring Star",
+		"author": " late spring",
+		"bookId": 6
+	}
     ```
      * `http://localhost:8080/books/2 (Delete request)`- Requires a book id to delete
 
