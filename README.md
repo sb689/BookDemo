@@ -19,9 +19,9 @@ To work with the application please follow below steps.
 4. Open a browser and type "http://localhost:8080"
 5. The above link will send you to the view - home.jsp, in this page, a user can search, create, update or delete a book record.
 6. To work with the rest API, please use postman. below are the rest API  calls supported.
-	i. `http://localhost:8080/books (Get request)`
+	* `http://localhost:8080/books (Get request)`
 
-	ii. `http://localhost:8080/books (Post request)`
+	* `http://localhost:8080/books (Post request)`
 	Provide a Http body as json.
    `{
         "title": "Spring Flower",
@@ -29,13 +29,13 @@ To work with the application please follow below steps.
        
     }`
 
-    c) http://localhost:8080/books (Put request)- Provide a Http body as json to update an existing record(if not exists then create a new record).
+    * http://localhost:8080/books (Put request)- Provide a Http body as json to update an existing record(if not exists then create a new record).
    {
         "title": "Spring Star",
         "author": " late spring",
          "bookId": 6
      }
-     d) http://localhost:8080/books/2 (Delete request)- Provide a book id to delete
+     * http://localhost:8080/books/2 (Delete request)- Provide a book id to delete
 
 
 
