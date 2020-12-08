@@ -23,7 +23,7 @@ To work with the application please follow the below steps.
 
 	* `http://localhost:8080/books (Post request)`
 	Requires a Http body as json to create a book record.
-   ```
+	```javascript
    	{ 
    		"title": "Spring Flower",
    		"author": "spring"
